@@ -10,6 +10,7 @@ $(function() {
         var params = {
             part: 'snippet',
             key: 'AIzaSyCUql0FHDPhuIqT1tenpwCy28MpJyD47fo',
+            maxResults: '10',
             q: searchTerm
         };
         url = 'https://www.googleapis.com/youtube/v3/search'
