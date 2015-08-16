@@ -1,3 +1,18 @@
+.h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+.h2 {
+    font-size: 1.5em;
+    margin: 0.83em 0;
+}
+.h3 {
+    font-size: 1.17em;
+    margin: 1em 0;
+}
+.h4 {
+    margin: 1.33em 0;
+}
 body {
     font-family: sans-serif;
 }
