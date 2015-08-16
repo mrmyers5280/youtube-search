@@ -20,7 +20,7 @@ $(function() {
     var showResults = function(results) {
         var html = '';
         $.each(results, function(index, value) {
-            html += '<img src="' + value.snippet.thumbnails.default.url + '">';
+            html += '<li><img src="' + value.snippet.thumbnails.default.url + '"><h3>' + value.snippet.title + '</h3><p>' + value.snippet.description + '</p></li>';
             console.log(value.id.videoId);
         });
         $('#search-results').html(html);
