@@ -2,7 +2,7 @@ body {
     font-family: sans-serif;
 }
 .wrapper {
-    width: 500px;
+    width: 600px;
     margin: 0 auto;
 }
 #masthead {
@@ -16,8 +16,17 @@ body {
     min-height: 250px;
     text-align: center;
 }
-#results {
+#search-results {
     text-align: left;
+}
+#search-results li {
+    min-height: 115px;
+    list-style-type: none;
+    clear: both;
+}
+#search-results img {
+    float: left;
+    padding: 0 10px 10px 0;
 }
 #footer {
     min-height: 100px;
