@@ -1,0 +1,38 @@
+body {
+    font-family: sans-serif;
+}
+.wrapper {
+    width: 500px;
+    margin: 0 auto;
+}
+#masthead {
+    background-color: #ffffff;
+    text-align: center;
+}
+#header img {
+    width: 300px;
+}
+#content {
+    min-height: 250px;
+    text-align: center;
+}
+#results {
+    text-align: left;
+}
+#footer {
+    min-height: 100px;
+    background-color: #424145;
+    color: #C8C5D1;
+    font-size: 0.85rem;
+    padding: 10px;
+}
+.left-footer {
+    float: left;
+}
+.right-footer {
+    float: right;
+}
+a {
+    color: #FF1200;
+    text-decoration: none;
+}
