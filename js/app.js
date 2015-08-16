@@ -4,7 +4,7 @@ $(function() {
         $('#search-results').empty();
         var searchTerm = $('#search-term').val();
         getRequest(searchTerm);
-        console.log(searchTerm);
+        // console.log(searchTerm);
     });
     var getRequest = function(searchTerm) {
         var params = {
@@ -21,8 +21,8 @@ $(function() {
     var showResults = function(results) {
         var html = '';
         $.each(results, function(index, value) {
-            html += '<li><img src="' + value.snippet.thumbnails.default.url + '"><h2 class="h3">' + value.snippet.title + '</h2><p>' + value.snippet.description + '</p></li>';
-            console.log(value.id.videoId);
+            html += '<li><a href="https://www.youtube.com/watch?v=' + value.id.videoId + '" target="_blank"><img src="' + value.snippet.thumbnails.default.url + '"><h2 class="h3">' + value.snippet.title + '</h2></a><p>' + value.snippet.description + '</p></li>';
+            // console.log(value.id.videoId);
         });
         $('#search-results').html(html);
     }
